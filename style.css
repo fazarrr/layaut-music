@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    font-family: 'Pathway Extreme', sans-serif;
+    font-weight: 500;
+    height: 3000PX;
+}
+.bagian-satu{
+    border-radius: 10px;
+}
+.collapse ul li a{
+    color: black;
+    font-weight: 500;
+}
+.fix {
+    height: 50px;
+    color: #fff;
+}
+.fix h5 {
+    width: 150px;
+    text-align: center;
+    height: 50px;
+    padding: 10px;
+}
+.bahasa {
+    margin-top: 100px;
+    margin-left: 20px;
+    display: flex;
+}
+.bahasa li{
+    display: inline;
+}
+.gambar img{
+    width: 500px;
+    height: 400px;
+}
+.gambar button{
+    border-radius: 50px;
+    padding: 5px;
+    border: none;
+}
+.kolap p{
+    width: 400px;
+}
+#footer li {
+    list-style: none;
+}
+.menu-end a{
+    text-decoration: none;
+    color: black;
+}
+.slack p{
+    color: #fff;
+}
+.slack input{
+    text-align: center;
+    margin: auto;
+}
+
+.slack button{
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    background-color: #fff;
+    display: block;
+    margin-top: 20px;
+    height: 40px;
+    width: 150px;
+    border-radius: 50px;
+    border: none;
+}
+/* Responsif */
+@media only screen and (max-width: 768px) {
+    /* For Hp: */
+    .bagian-satu{
+        height: 850px;
+        border: 1px solid;
+        border-radius: 10px;
+    }
+    .gambar img{
+        width: 100%;
+        height: 300px;
+        margin-top: 200px;
+    }
+    .bagian-2 h4{
+        text-align: center;
+        font-size: 15px;
+    }
+    #sesi3 .gambar{
+        margin-top: 0px;
+    }
+    #sesi3 .gambar img {
+        margin-top: 0;
+    }
+    #sesi3 p{
+        color: #fff;
+        font-size: 18px;
+    }
+    #sesi3 input {
+        margin-top: -30px;
+
+    }
+    #sesi3 button{
+        align-items: center;
+        border-radius: 30px;
+        padding: 5px;
+        border: none;
+        margin-top: 20px;
+        font-weight: bold;
+    }
+    .end {
+        display: block;
+    }
+  }
